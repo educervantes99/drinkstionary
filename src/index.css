@@ -1,0 +1,69 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  background-color: white;
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+.maincontent {
+  margin-bottom: 4rem;
+}
+
+input {
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 14px 16px;
+}
+
+input::placeholder { 
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.headerImage {
+  max-width: 60px;
+}
+
+.about-images{
+  max-width: 200px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  max-width: 1280px;
+}
